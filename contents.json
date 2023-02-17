@@ -5,6 +5,16 @@
 		"patterns": [],
 		"responses": []
 	},
-		
+	{
+		"tags": "goodbye",
+		"patterns": [],
+		"responses": []
+	},
+	{
+		"tags": "thanks",
+		"patterns": [],
+		"responses": []
+	}
+	
 	]
 }

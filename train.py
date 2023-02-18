@@ -1,11 +1,14 @@
-import numpy as np
-import random
 import json
 
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+with open('contents.json', 'r') as f:
+	contents = json.load(f)
 
-from nltk import bag_of_words, tokenize, stem
-from model import NeuralNet
+# Empty List
+all_words = []
+# trained tag
+tags = []
+xy = []
 
+for content in contents['contents']:
+	tag = content['tag']
+	tags.append(tag)

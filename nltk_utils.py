@@ -17,10 +17,10 @@ def bag_of_words(tokenized_sentence, all_words):
 ## Tokenization_Testing
 a = "How are you bitch??"
 a = tokenize(a)
-print(a)
+# print(a)
 
 ## Stemming_Testing 
 words = ["universe", "university", "universal"]
 stemmed_words = [stem(w) for w in words]
-print(stemmed_words)
+# print(stemmed_words)
 
